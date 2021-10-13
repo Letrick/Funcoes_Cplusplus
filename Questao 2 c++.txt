@@ -1,0 +1,28 @@
+#include <iostream>
+
+float equacao (float a, float b, float c){
+
+    float delta = ((bb)-(4a*c));
+
+       return delta;
+
+
+}
+
+int main () {
+
+    float a, b,c, delta1;
+
+    std::cout << "Insira o primeiro numero: \n";
+    std::cin  >> a;
+    std::cout << "Insira o primeiro numero: \n";
+    std::cin  >> b;
+    std::cout << "Insira o primeiro numero: \n";
+    std::cin  >> c;
+
+    delta1 = equacao (a,b,c);
+    std::cout << delta1;
+
+
+
+}

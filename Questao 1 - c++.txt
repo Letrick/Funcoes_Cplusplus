@@ -1,0 +1,22 @@
+#include <iostream>
+
+int inteiro (int numero){
+
+        if (numero > 0){
+
+            std::cout << "numero e positivo ";
+    }
+    else{
+            std::cout << "numero nao e positivo ";
+    }
+}
+
+int main () {
+
+    int n1;
+
+    std::cout << "Insira um numero numero: \n";
+    std::cin  >> n1;
+
+    return inteiro(n1);
+}

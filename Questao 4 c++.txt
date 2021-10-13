@@ -1,0 +1,35 @@
+#include <iostream>
+
+float numero (float n1, float n2, float n3){
+	
+	if (n1 < n2 && n1 < n3){
+		
+		    std::cout << n1 << " e o menor! \n";
+
+	}
+	else if (n2 < n1 && n2 < n3){
+		
+			std::cout << n2 <<" e o menor! \n";
+	}
+	else if (n3 < n1 && n3 < n2){
+		
+			std::cout << n3 << " e o menor! \n";
+	
+}
+}
+
+int main () {
+
+    float numero1, numero2,numero3;
+
+    std::cout << "Insira o primeiro numero: \n";
+    std::cin  >> numero1;
+    std::cout << "Insira o primeiro numero: \n";
+    std::cin  >> numero2;
+    std::cout << "Insira o primeiro numero: \n";
+    std::cin  >> numero3;
+
+	return numero (numero1, numero2,numero3);
+
+
+}
